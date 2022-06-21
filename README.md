@@ -1,4 +1,4 @@
-# Language Basics Cpp
+# Language Basics CPP
 
 ## Contributing
 
