@@ -1,0 +1,12 @@
+{
+  "id": "builtin.language-basics-cpp",
+  "name": "Language Basics C++",
+  "description": "Provides syntax highlighting and bracket matching in C++ files.",
+  "languages": [
+    {
+      "id": "cpp",
+      "extensions": [".cpp", ".hpp", ".cu"],
+      "configuration": "./languageConfiguration.json"
+    }
+  ]
+}
