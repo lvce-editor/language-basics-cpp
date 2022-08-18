@@ -5,7 +5,26 @@
   "languages": [
     {
       "id": "cpp",
-      "extensions": [".cpp", ".hpp", ".cu"],
+      "extensions": [
+        ".cpp",
+        ".cc",
+        ".cxx",
+        ".c++",
+        ".hpp",
+        ".hh",
+        ".hxx",
+        ".h++",
+        ".h",
+        ".ii",
+        ".ino",
+        ".inl",
+        ".ipp",
+        ".ixx",
+        ".tpp",
+        ".txx",
+        ".hpp.in",
+        ".h.in"
+      ],
       "configuration": "./languageConfiguration.json",
       "tokenize": "src/tokenizeCpp.js"
     }
