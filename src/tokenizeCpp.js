@@ -9,6 +9,7 @@ export const State = {
   AfterIncludeAfterWhitespace: 5,
   AfterMacroError: 6,
   AfterMacroErrorAfterWhitespace: 7,
+  InsideBlockComment: 8,
 }
 
 /**
@@ -64,7 +65,8 @@ const RE_NUMERIC =
   /^((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)/
 const RE_NEWLINE_WHITESPACE = /^\n\s*/
 const RE_BLOCK_COMMENT_START = /^\/\*/
-const RE_BLOCK_COMMENT_CONTENT = /^.+(?=\*\/|$)/s
+const RE_BLOCK_COMMENT_CONTENT_1 = /^.+(?=\*\/)/s
+const RE_BLOCK_COMMENT_CONTENT_2 = /^.+(?=$)/s
 const RE_BLOCK_COMMENT_END = /^\*\//
 const RE_UNKNOWN_VALUE = /^[^\}\{\s,"]+/
 const RE_IMPORT = /^[a-zA-Z\.]+/
@@ -98,6 +100,7 @@ export const initialLineState = {
   state: State.TopLevelContent,
 }
 
+// @ts-ignore
 export const isLineStateEqual = (lineStateA, lineStateB) => {
   return lineStateA.state === lineStateB.state
 }
@@ -150,6 +153,9 @@ export const tokenizeLine = (line, lineState) => {
         } else if ((next = part.match(RE_LINE_COMMENT))) {
           token = TokenType.Comment
           state = State.InsideLineComment
+        } else if ((next = part.match(RE_BLOCK_COMMENT_START))) {
+          token = TokenType.Comment
+          state = State.InsideBlockComment
         } else if ((next = part.match(RE_PUNCTUATION))) {
           token = TokenType.Punctuation
           state = State.TopLevelContent
@@ -201,6 +207,23 @@ export const tokenizeLine = (line, lineState) => {
         if ((next = part.match(RE_ANYTHING_UNTIL_END))) {
           token = TokenType.String
           state = State.TopLevelContent
+        } else {
+          throw new Error('no')
+        }
+        break
+      case State.InsideBlockComment:
+        if ((next = part.match(RE_BLOCK_COMMENT_END))) {
+          token = TokenType.Comment
+          state = State.TopLevelContent
+        } else if ((next = part.match(RE_BLOCK_COMMENT_CONTENT_1))) {
+          token = TokenType.Comment
+          state = State.InsideBlockComment
+        } else if ((next = part.match(RE_BLOCK_COMMENT_CONTENT_2))) {
+          token = TokenType.Comment
+          state = State.InsideBlockComment
+        } else if ((next = part.match(RE_ANYTHING_UNTIL_END))) {
+          token = TokenType.Comment
+          state = State.InsideBlockComment
         } else {
           throw new Error('no')
         }
