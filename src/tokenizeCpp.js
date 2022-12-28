@@ -161,6 +161,9 @@ export const tokenizeLine = (line, lineState) => {
         } else if ((next = part.match(RE_PUNCTUATION))) {
           token = TokenType.Punctuation
           state = State.TopLevelContent
+        } else if ((next = part.match(RE_DOUBLE_QUOTE))) {
+          token = TokenType.Punctuation
+          state = State.InsideDoubleQuoteString
         } else if ((next = part.match(RE_TEXT))) {
           token = TokenType.Text
           state = State.TopLevelContent
@@ -226,6 +229,17 @@ export const tokenizeLine = (line, lineState) => {
         } else if ((next = part.match(RE_ANYTHING_UNTIL_END))) {
           token = TokenType.Comment
           state = State.InsideBlockComment
+        } else {
+          throw new Error('no')
+        }
+        break
+      case State.InsideDoubleQuoteString:
+        if ((next = part.match(RE_STRING_DOUBLE_QUOTE_CONTENT))) {
+          token = TokenType.String
+          state = State.InsideDoubleQuoteString
+        } else if ((next = part.match(RE_DOUBLE_QUOTE))) {
+          token = TokenType.Punctuation
+          state = State.TopLevelContent
         } else {
           throw new Error('no')
         }
