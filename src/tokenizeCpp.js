@@ -32,6 +32,15 @@ export const TokenType = {
   Include: 222,
   Type: 555,
   Macro: 71,
+  KeywordImport: 215,
+  KeywordControl: 881,
+  KeywordModifier: 882,
+  KeywordReturn: 883,
+  KeywordNew: 884,
+  FunctionName: 885,
+  KeywordThis: 886,
+  KeywordOperator: 887,
+  LanguageConstant: 888,
 }
 
 export const TokenMap = {
@@ -47,6 +56,15 @@ export const TokenMap = {
   [TokenType.Type]: 'Type',
   [TokenType.Macro]: 'Macro',
   [TokenType.Numeric]: 'Numeric',
+  [TokenType.KeywordImport]: 'KeywordImport',
+  [TokenType.KeywordControl]: 'KeywordControl',
+  [TokenType.KeywordModifier]: 'KeywordModifier',
+  [TokenType.KeywordReturn]: 'KeywordReturn',
+  [TokenType.KeywordNew]: 'KeywordNew',
+  [TokenType.FunctionName]: 'Function',
+  [TokenType.KeywordThis]: 'KeywordThis',
+  [TokenType.KeywordOperator]: 'KeywordOperator',
+  [TokenType.LanguageConstant]: 'LanguageConstant',
 }
 
 const RE_WHITESPACE = /^\s+/
@@ -128,7 +146,39 @@ export const tokenizeLine = (line, lineState) => {
           token = TokenType.Whitespace
           state = State.TopLevelContent
         } else if ((next = part.match(RE_KEYWORD))) {
-          token = TokenType.Keyword
+          switch (next[0]) {
+            case 'true':
+            case 'false':
+            case 'null':
+              token = TokenType.LanguageConstant
+              break
+            case 'switch':
+            case 'default':
+            case 'case':
+            case 'else':
+            case 'if':
+            case 'break':
+            case 'throw':
+            case 'for':
+            case 'try':
+            case 'catch':
+            case 'continue':
+            case 'while':
+              token = TokenType.KeywordControl
+              break
+            case 'return':
+              token = TokenType.KeywordReturn
+              break
+            case 'new':
+              token = TokenType.KeywordNew
+              break
+            case 'this':
+              token = TokenType.KeywordThis
+              break
+            default:
+              token = TokenType.Keyword
+              break
+          }
           state = State.TopLevelContent
         } else if ((next = part.match(RE_TYPE))) {
           token = TokenType.Type
