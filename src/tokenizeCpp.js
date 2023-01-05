@@ -46,6 +46,7 @@ export const TokenMap = {
   [TokenType.String]: 'String',
   [TokenType.Type]: 'Type',
   [TokenType.Macro]: 'Macro',
+  [TokenType.Numeric]: 'Numeric',
 }
 
 const RE_WHITESPACE = /^\s+/
@@ -164,6 +165,9 @@ export const tokenizeLine = (line, lineState) => {
         } else if ((next = part.match(RE_DOUBLE_QUOTE))) {
           token = TokenType.Punctuation
           state = State.InsideDoubleQuoteString
+        } else if ((next = part.match(RE_NUMERIC))) {
+          token = TokenType.Numeric
+          state = State.TopLevelContent
         } else if ((next = part.match(RE_TEXT))) {
           token = TokenType.Text
           state = State.TopLevelContent
