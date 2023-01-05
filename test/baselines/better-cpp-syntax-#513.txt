@@ -1,0 +1,13 @@
+Macro
+Whitespace
+VariableName
+Whitespace
+Punctuation
+Punctuation
+Keyword
+Whitespace
+Punctuation
+Punctuation
+Numeric
+Punctuation
+NewLine
