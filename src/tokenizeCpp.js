@@ -97,7 +97,7 @@ const RE_ROUND_CLOSE = /^\)/
 const RE_DOT = /^\./
 const RE_EQUAL_SIGN = /^=/
 const RE_SINGLE_QUOTE = /^'/
-const RE_PUNCTUATION = /^[\(\)=\+\-><\.,\/\*\^\[\]\{\}\|:\;]/
+const RE_PUNCTUATION = /^[\(\)=\+\-><\.,\/\*\^\[\]\{\}\|:\;\&\!\~]/
 const RE_ANYTHING_UNTIL_END = /^.+/s
 const RE_START_OF_FUNCTION = /^( )*\(/
 const RE_COLON_COLON = /^::/
