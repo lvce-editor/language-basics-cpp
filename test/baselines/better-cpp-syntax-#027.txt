@@ -1,0 +1,17 @@
+Comment
+Comment
+Whitespace
+Macro
+Whitespace
+VariableName
+Whitespace
+VariableName
+Whitespace
+Punctuation
+Punctuation
+Whitespace
+Punctuation
+String
+Punctuation
+Punctuation
+NewLine
