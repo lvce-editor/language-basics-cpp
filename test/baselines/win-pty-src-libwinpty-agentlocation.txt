@@ -89,7 +89,7 @@ Keyword
 Whitespace
 VariableName
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -106,7 +106,7 @@ KeywordControl
 Whitespace
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
 NewLine
 Whitespace
@@ -137,7 +137,7 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Whitespace
@@ -169,7 +169,7 @@ Punctuation
 Punctuation
 VariableName
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Whitespace
@@ -206,7 +206,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -219,7 +219,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Whitespace
@@ -246,7 +246,7 @@ Whitespace
 VariableName
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -262,7 +262,7 @@ Punctuation
 Punctuation
 VariableName
 Whitespace
-VariableName
+Function
 Punctuation
 Keyword
 Whitespace
@@ -292,7 +292,7 @@ Punctuation
 Whitespace
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -341,7 +341,7 @@ KeywordReturn
 Whitespace
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Numeric
 Punctuation
@@ -360,7 +360,7 @@ Keyword
 Whitespace
 Keyword
 Whitespace
-VariableName
+Function
 Punctuation
 Keyword
 Whitespace
@@ -378,11 +378,11 @@ NewLine
 Whitespace
 KeywordReturn
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -401,7 +401,7 @@ Punctuation
 Punctuation
 VariableName
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -417,11 +417,11 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
-VariableName
+Function
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -457,7 +457,7 @@ KeywordControl
 Whitespace
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -468,7 +468,7 @@ NewLine
 Whitespace
 KeywordControl
 Whitespace
-VariableName
+Function
 Punctuation
 NewLine
 Whitespace
@@ -494,7 +494,7 @@ String
 Punctuation
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation

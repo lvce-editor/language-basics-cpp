@@ -19,7 +19,7 @@ Punctuation
 NewLine
 Macro
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -33,7 +33,7 @@ VariableName
 NewLine
 Macro
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -70,7 +70,7 @@ NewLine
 Macro
 Whitespace
 Punctuation
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -78,7 +78,7 @@ Whitespace
 Punctuation
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -106,7 +106,7 @@ NewLine
 Macro
 Whitespace
 Punctuation
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -114,7 +114,7 @@ Whitespace
 Punctuation
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -206,7 +206,7 @@ NewLine
 NewLine
 Macro
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -257,7 +257,7 @@ NewLine
 NewLine
 Macro
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -265,7 +265,7 @@ Whitespace
 Text
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation

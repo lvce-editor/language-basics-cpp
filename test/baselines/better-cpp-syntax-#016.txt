@@ -5,7 +5,7 @@ Whitespace
 Punctuation
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 Keyword
 Whitespace
