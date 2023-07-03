@@ -101,7 +101,7 @@ Whitespace
 Keyword
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
 Keyword
 Whitespace
@@ -177,7 +177,7 @@ Whitespace
 Keyword
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
 Keyword
 Whitespace

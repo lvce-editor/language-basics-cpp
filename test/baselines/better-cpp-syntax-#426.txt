@@ -1,4 +1,4 @@
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation

@@ -9,14 +9,14 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 Numeric
 Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Numeric
 Punctuation
@@ -25,7 +25,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation

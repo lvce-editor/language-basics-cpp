@@ -22,7 +22,7 @@ Numeric
 Punctuation
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
 Whitespace
 Keyword
@@ -58,7 +58,7 @@ Numeric
 Punctuation
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
 Whitespace
 Keyword

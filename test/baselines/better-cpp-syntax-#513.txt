@@ -1,6 +1,6 @@
 Macro
 Whitespace
-VariableName
+Function
 Whitespace
 Punctuation
 Punctuation

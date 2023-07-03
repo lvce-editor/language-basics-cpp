@@ -8,7 +8,7 @@ Punctuation
 NewLine
 Keyword
 Whitespace
-VariableName
+Function
 Punctuation
 Keyword
 Whitespace

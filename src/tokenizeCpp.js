@@ -114,6 +114,7 @@ const RE_INCLUDE_WITH_QUOTES = /^"([^"]*)"/
 const RE_INCLUDE_WITH_ANGLE_BRACKETS = /^<[^>]*>/
 const RE_TYPE = /^(?:size_t)\b/
 const RE_MACRO = /^#[a-z]+/
+const RE_FUNCTION_CALL_NAME = /^[\w]+(?=\s*(\())/
 
 export const initialLineState = {
   state: State.TopLevelContent,
@@ -182,6 +183,9 @@ export const tokenizeLine = (line, lineState) => {
           state = State.TopLevelContent
         } else if ((next = part.match(RE_TYPE))) {
           token = TokenType.Type
+          state = State.TopLevelContent
+        } else if ((next = part.match(RE_FUNCTION_CALL_NAME))) {
+          token = TokenType.FunctionName
           state = State.TopLevelContent
         } else if ((next = part.match(RE_VARIABLE_NAME))) {
           token = TokenType.VariableName

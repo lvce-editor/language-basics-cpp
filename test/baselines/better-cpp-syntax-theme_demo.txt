@@ -1,6 +1,6 @@
 Macro
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -60,7 +60,7 @@ Keyword
 Whitespace
 Keyword
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -68,9 +68,9 @@ NewLine
 NewLine
 Keyword
 Whitespace
-VariableName
+Function
 Punctuation
-VariableName
+Function
 Whitespace
 Punctuation
 Punctuation
@@ -282,7 +282,7 @@ NewLine
 NewLine
 Keyword
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace

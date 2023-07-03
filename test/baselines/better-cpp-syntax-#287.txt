@@ -43,10 +43,10 @@ Punctuation
 NewLine
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 Whitespace
 Punctuation

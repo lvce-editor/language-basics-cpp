@@ -29,7 +29,7 @@ Keyword
 Whitespace
 VariableName
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -42,7 +42,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -63,7 +63,7 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -75,7 +75,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Numeric
 Punctuation
@@ -97,7 +97,7 @@ Keyword
 Whitespace
 VariableName
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -118,9 +118,9 @@ KeywordControl
 Whitespace
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -133,7 +133,7 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -145,7 +145,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Numeric
 Punctuation
@@ -167,7 +167,7 @@ Keyword
 Whitespace
 Keyword
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Whitespace
@@ -181,9 +181,9 @@ KeywordControl
 Whitespace
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -195,7 +195,7 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -207,7 +207,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Numeric
 Punctuation
@@ -223,7 +223,7 @@ Keyword
 Whitespace
 Keyword
 Whitespace
-VariableName
+Function
 Punctuation
 Keyword
 Whitespace
@@ -264,11 +264,11 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -310,7 +310,7 @@ Whitespace
 Text
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -322,14 +322,14 @@ Punctuation
 Whitespace
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Numeric
 Punctuation
@@ -351,14 +351,14 @@ Keyword
 Whitespace
 Keyword
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -367,7 +367,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -376,7 +376,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -385,7 +385,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -394,7 +394,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -403,7 +403,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -412,7 +412,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -421,7 +421,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Numeric
 Punctuation
@@ -534,7 +534,7 @@ NewLine
 NewLine
 Keyword
 Whitespace
-VariableName
+Function
 Punctuation
 Keyword
 Whitespace
@@ -596,7 +596,7 @@ NewLine
 Whitespace
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -615,7 +615,7 @@ Whitespace
 Punctuation
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -624,7 +624,7 @@ Punctuation
 Whitespace
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -658,13 +658,13 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -694,7 +694,7 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -785,7 +785,7 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
@@ -858,7 +858,7 @@ Whitespace
 Punctuation
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -879,7 +879,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -889,7 +889,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -905,7 +905,7 @@ Whitespace
 Punctuation
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -926,7 +926,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -944,7 +944,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -963,7 +963,7 @@ Whitespace
 Punctuation
 Whitespace
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -985,7 +985,7 @@ Punctuation
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 VariableName
 Punctuation
@@ -999,7 +999,7 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -1033,7 +1033,7 @@ Whitespace
 Punctuation
 VariableName
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 Whitespace
@@ -1046,7 +1046,7 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -1055,14 +1055,14 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 String
 Punctuation
 Punctuation
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation
@@ -1076,7 +1076,7 @@ Whitespace
 Punctuation
 NewLine
 Whitespace
-VariableName
+Function
 Punctuation
 Punctuation
 Punctuation

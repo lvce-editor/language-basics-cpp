@@ -3,7 +3,7 @@ Whitespace
 VariableName
 Punctuation
 Punctuation
-VariableName
+Function
 Punctuation
 Punctuation
 NewLine
