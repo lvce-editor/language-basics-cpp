@@ -22,7 +22,7 @@ NewLine
 Whitespace
 KeywordReturn
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 Whitespace
@@ -57,7 +57,7 @@ NewLine
 Whitespace
 KeywordReturn
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 Whitespace

@@ -139,7 +139,7 @@ NewLine
 Whitespace
 Function
 Punctuation
-VariableName
+LanguageConstant
 Whitespace
 Punctuation
 Punctuation

@@ -107,7 +107,7 @@ const RE_SQUARE_OPEN_SQUARE_OPEN = /^\[\[/
 const RE_SQUARE_CLOSE_SQUARE_CLOSE = /^\]\]/
 const RE_STRING_MULTILINE_CONTENT = /^.+?(?=\]\]|$)/s
 const RE_KEYWORD =
-  /^(?:while|volatile|void|virtual|unsigned|union|using|typedef|try|throw|this|template|switch|struct|static|sizeof|signed|short|return|register|public|protected|private|operator|new|namespace|long|int|inline|if|goto|friend|for|float|extern|enum|else|double|do|delete|default|continue|const|constexpr|class|char|catch|case|bool|break|auto|asm)\b/
+  /^(?:true|false|while|volatile|void|virtual|unsigned|union|using|typedef|try|throw|this|template|switch|struct|static|sizeof|signed|short|return|register|public|protected|private|operator|new|namespace|long|int|inline|if|goto|friend|for|float|extern|enum|else|double|do|delete|default|continue|const|constexpr|class|char|catch|case|bool|break|auto|asm)\b/
 const RE_TEXT = /^.+/s
 const RE_INCLUDE = /^#include/
 const RE_INCLUDE_WITH_QUOTES = /^"([^"]*)"/
@@ -175,6 +175,10 @@ export const tokenizeLine = (line, lineState) => {
               break
             case 'this':
               token = TokenType.KeywordThis
+              break
+            case 'true':
+            case 'false':
+              token = TokenType.LanguageConstant
               break
             default:
               token = TokenType.Keyword

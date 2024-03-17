@@ -184,7 +184,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -207,7 +207,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -228,7 +228,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -249,7 +249,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -270,7 +270,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -295,7 +295,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -316,7 +316,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -337,7 +337,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -358,7 +358,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation

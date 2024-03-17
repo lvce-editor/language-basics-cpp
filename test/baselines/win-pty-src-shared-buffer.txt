@@ -140,7 +140,7 @@ Whitespace
 KeywordControl
 Whitespace
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 NewLine

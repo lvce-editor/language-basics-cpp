@@ -2055,7 +2055,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 Whitespace
@@ -2134,7 +2134,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 Whitespace
@@ -2583,7 +2583,7 @@ Whitespace
 VariableName
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Comment

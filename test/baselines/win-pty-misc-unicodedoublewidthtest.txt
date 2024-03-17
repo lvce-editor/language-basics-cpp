@@ -500,7 +500,7 @@ NewLine
 Whitespace
 KeywordReturn
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 Whitespace
@@ -569,7 +569,7 @@ NewLine
 Whitespace
 KeywordReturn
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 Whitespace
@@ -636,7 +636,7 @@ NewLine
 Whitespace
 KeywordReturn
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 Whitespace
@@ -653,7 +653,7 @@ NewLine
 Whitespace
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Punctuation
 NewLine

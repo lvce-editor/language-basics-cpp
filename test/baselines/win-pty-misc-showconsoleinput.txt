@@ -60,7 +60,7 @@ Whitespace
 KeywordControl
 Whitespace
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -124,7 +124,7 @@ Whitespace
 KeywordControl
 Whitespace
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
