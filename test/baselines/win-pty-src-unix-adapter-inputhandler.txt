@@ -147,7 +147,7 @@ NewLine
 Whitespace
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Punctuation
 NewLine
@@ -256,7 +256,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 Whitespace
@@ -309,7 +309,7 @@ Whitespace
 KeywordControl
 Whitespace
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation

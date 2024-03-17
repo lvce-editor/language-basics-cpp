@@ -368,7 +368,7 @@ Whitespace
 Numeric
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Punctuation
 NewLine
@@ -599,7 +599,7 @@ VariableName
 Punctuation
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Punctuation
 NewLine
@@ -608,7 +608,7 @@ VariableName
 Punctuation
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Punctuation
 NewLine
@@ -640,7 +640,7 @@ VariableName
 Punctuation
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Punctuation
 NewLine
@@ -678,7 +678,7 @@ VariableName
 Punctuation
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Punctuation
 NewLine
@@ -802,7 +802,7 @@ NewLine
 Whitespace
 Function
 Punctuation
-VariableName
+LanguageConstant
 Whitespace
 Punctuation
 Punctuation
@@ -1134,7 +1134,7 @@ Whitespace
 Punctuation
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 VariableName
@@ -1152,7 +1152,7 @@ Whitespace
 Punctuation
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 VariableName
@@ -1179,7 +1179,7 @@ Whitespace
 Punctuation
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 VariableName
@@ -2032,7 +2032,7 @@ Whitespace
 KeywordControl
 Whitespace
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation
@@ -2296,7 +2296,7 @@ NewLine
 Whitespace
 Function
 Punctuation
-VariableName
+LanguageConstant
 Whitespace
 Punctuation
 Punctuation
@@ -3908,7 +3908,7 @@ VariableName
 Whitespace
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 NewLine
 Whitespace

@@ -7,7 +7,7 @@ NewLine
 Whitespace
 Function
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation

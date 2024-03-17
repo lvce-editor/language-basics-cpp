@@ -18,7 +18,7 @@ Punctuation
 Whitespace
 KeywordReturn
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Punctuation

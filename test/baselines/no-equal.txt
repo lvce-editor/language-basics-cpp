@@ -1,11 +1,11 @@
 KeywordControl
 Punctuation
-VariableName
+LanguageConstant
 Whitespace
 Punctuation
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Punctuation
 Punctuation
 Punctuation

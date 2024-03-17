@@ -132,7 +132,7 @@ KeywordControl
 Whitespace
 Punctuation
 Whitespace
-VariableName
+LanguageConstant
 Whitespace
 Function
 Whitespace
@@ -161,7 +161,7 @@ KeywordControl
 Whitespace
 Punctuation
 Punctuation
-VariableName
+LanguageConstant
 Punctuation
 Whitespace
 Function
