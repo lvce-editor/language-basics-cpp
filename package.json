@@ -5,15 +5,16 @@
   "type": "module",
   "scripts": {
     "test": "test-syntax-highlighting",
-    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js ./test/cases --only-extension=.",
-    "lint": "eslint . && prettier --check ."
+    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js ./test/cases --only-extension=."
   },
   "author": "Lvce Editor",
   "license": "MIT",
   "devDependencies": {
+    "@lvce-editor/eslint-config": "^4.3.0",
     "@lvce-editor/package-extension": "^0.2.0",
     "@lvce-editor/server": "^0.24.3",
     "@lvce-editor/test-syntax-highlighting": "^1.0.0",
+    "eslint": "^9.39.2",
     "execa": "^8.0.1",
     "prettier": "^3.2.5",
     "typescript": "^5.4.2"
