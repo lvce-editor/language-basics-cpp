@@ -28,5 +28,6 @@
       "configuration": "./languageConfiguration.json",
       "tokenize": "src/tokenizeCpp.js"
     }
-  ]
+  ],
+  "repository": "https://github.com/lvce-editor/language-basics-cpp"
 }
